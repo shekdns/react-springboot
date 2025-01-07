@@ -1,7 +1,7 @@
 const AddPage = () => {
   return (
     <div className="text-3xl font-extrabold">
-      Todo Add Page DD
+      Todo Add Page
     </div>
   );
 }
