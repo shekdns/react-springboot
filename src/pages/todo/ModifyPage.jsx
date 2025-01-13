@@ -14,10 +14,10 @@ const ModifyPage = ( {tno} ) => {
   return (
     <div className="text-3xl font-extrabold">
       Todo Modify Page
-      <div>
+      {/* <div>
         <button onClick={ () => moveToRead(tno) }>Test Read</button>
         <button onClick={ () => moveToList() }>Test List</button>
-      </div>
+      </div> */}
     </div>
   );
 }

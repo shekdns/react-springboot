@@ -12,15 +12,15 @@ const ReadPage = () => {
   const size = queryParams.get( "size" ) ? parseInt( queryParams.get( "size" ) ) : 10
   const queryStr = createSearchParams( {page,size} ).toString()
 
-  const moveToModify = useCallback( (tno) => {
-    navigate( {pathname: `/todo/modify/${tno}`,
-               search: queryStr
-            } )
-  }, [tno, page, size] )
+  // const moveToModify = useCallback( (tno) => {
+  //   navigate( {pathname: `/todo/modify/${tno}`,
+  //              search: queryStr
+  //           } )
+  // }, [tno, page, size] )
 
-  const moveToList = useCallback( () => {
-    navigate( {pathname: `/todo/list`, search: queryStr } )
-  }, [page, size] )
+  // const moveToList = useCallback( () => {
+  //   navigate( {pathname: `/todo/list`, search: queryStr } )
+  // }, [page, size] )
 
   return (
     <div className='text-3xl font-extrabold w-full bg-white mt-6'>
